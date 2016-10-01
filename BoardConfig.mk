@@ -15,7 +15,9 @@ TARGET_CPU_VARIANT := cortex-a9
 # Kernel
 BOARD_KERNEL_BASE := 0x82000000
 BOARD_KERNEL_PAGESIZE := 4096
-TARGET_PREBUILT_KERNEL := device/samsung/cs02/kernel
+TARGET_KERNEL_SOURCE := kernel/samsung/cs02
+TARGET_KERNEL_CONFIG := bcm21664_hawaii_ss_cs02_rev02_defconfig
+KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/arm/arm-eabi-4.7/bin
 
 # Partition info
 TARGET_USERIMAGES_USE_EXT4 := true

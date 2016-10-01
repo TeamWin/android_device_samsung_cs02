@@ -1,0 +1,15 @@
+
+[
+	{
+		"remote":"github",
+		"repository":"SiniTurk/android_kernel_samsung_cs02",
+		"target_path":"kernel/samsung/cs02",
+		"revision":"twrp-6.0"
+	},
+        {
+		"remote":"aosp",
+		"repository":"platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.7",
+		"target_path":"prebuilts/gcc/linux-x86/arm/arm-eabi-4.7",
+		"revision":"master"
+	}
+]
