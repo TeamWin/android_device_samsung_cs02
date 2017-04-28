@@ -44,3 +44,14 @@ TW_BRIGHTNESS_PATH := "/sys/class/backlight/panel/brightness"
 TW_MAX_BRIGHTNESS := 255
 TW_INCLUDE_INJECTTWRP := false
 TWRP_EVENT_LOGGING := false
+BOARD_HAS_NO_MISC_PARTITION := true
+BOARD_RECOVERY_HANDLES_MOUNT := true
+BOARD_USES_MMCUTILS := false
+BOARD_RECOVERY_ALWAYS_WIPES := false
+BOARD_SUPPRESS_EMMC_WIPE := true
+TARGET_USE_CUSTOM_LUN_FILE_PATH := "/sys/class/android_usb/android0/f_mass_storage/lun%d/file"
+BOARD_HAS_LARGE_FILESYSTEM := true
+TARGET_USERIMAGES_USE_EXT4 := true
+
+# jemalloc causes a lot of random crash on free()
+MALLOC_IMPL := dlmalloc
