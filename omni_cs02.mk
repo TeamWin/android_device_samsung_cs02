@@ -11,6 +11,6 @@ $(call inherit-product, device/samsung/cs02/device.mk)
 PRODUCT_NAME := omni_cs02
 PRODUCT_DEVICE := cs02
 PRODUCT_BRAND := samsung
-PRODUCT_MODEL := cs02
+PRODUCT_MODEL := SM-G350
 PRODUCT_MANUFACTURER := samsung
     
