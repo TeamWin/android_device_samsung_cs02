@@ -17,7 +17,6 @@ BOARD_KERNEL_BASE := 0x81E00000
 BOARD_KERNEL_PAGESIZE := 4096
 TARGET_KERNEL_SOURCE := kernel/samsung/cs02
 TARGET_KERNEL_CONFIG := bcm21664_hawaii_ss_cs02_rev02_defconfig
-KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/arm/arm-eabi-4.7/bin
 
 # Partition info
 TARGET_USERIMAGES_USE_EXT4 := true
