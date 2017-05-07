@@ -1,9 +1,9 @@
 
 [
 	{
-		"remote":"github",
-		"repository":"SiniTurk/android_kernel_samsung_cs02",
+		"remote":"TeamWin",
+		"repository":"android_kernel_samsung_cs02",
 		"target_path":"kernel/samsung/cs02",
-		"revision":"twrp-6.0"
+		"revision":"android-6.0"
 	}
 ]
