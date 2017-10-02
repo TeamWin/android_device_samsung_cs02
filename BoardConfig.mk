@@ -51,6 +51,7 @@ BOARD_SUPPRESS_EMMC_WIPE := true
 TARGET_USE_CUSTOM_LUN_FILE_PATH := "/sys/class/android_usb/android0/f_mass_storage/lun%d/file"
 BOARD_HAS_LARGE_FILESYSTEM := true
 TARGET_USERIMAGES_USE_EXT4 := true
+TW_INCLUDE_CRYPTO := true
 
 # jemalloc causes a lot of random crash on free()
 MALLOC_IMPL := dlmalloc
